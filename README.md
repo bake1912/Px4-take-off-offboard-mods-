@@ -59,9 +59,12 @@ micro-ros-agent serial --dev /dev/ttyTHS1 -b 921600 -V
 ```
 
 To run the offboard position control example, run the node on the companion computer
+
 ```
 ros2 launch px4_offboard offboard_hardware_position_control.launch.py
-
+```
 To run all the nodes and tools together, run the app.launch 
 ```
+
 ros2 launch px4_offboard app.launch.py
+```
