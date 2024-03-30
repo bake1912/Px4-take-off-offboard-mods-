@@ -15,7 +15,8 @@ setup(
             ['resource/' + 'visualize.rviz']),
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share', package_name), glob('launch/*launch.[pxy][yma]*')),
-        (os.path.join('share', package_name), glob('resource/*rviz'))
+        (os.path.join('share', package_name), glob('resource/*rviz')),
+        (os.path.join('share', package_name, 'config'), ['config/config.yaml']),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -28,6 +29,7 @@ setup(
         'console_scripts': [
                 'offboard_control = px4_offboard.offboard_control:main',
                 'visualizer = px4_offboard.visualizer:main',
+                'takeoff_offboard = px4_offboard.takeoff_offboard:main',
         ],
     },
 )

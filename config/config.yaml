@@ -1,0 +1,3 @@
+path:
+  px4_sitl: '/home/mykola/Desktop/other/PX4-Autopilot'
+  micro_agent : '/home/mykola/Micro-XRCE-DDS-Agent'

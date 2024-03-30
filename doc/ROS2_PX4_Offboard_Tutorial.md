@@ -82,7 +82,7 @@ It should respond with:
 ### Overview
 
 You will need 4 terminal windows  ([gnome terminator](https://gnome-terminator.org/) is a great for this!), one for each of the following components:
-
+r
    * micro-ros-agent
    * Gazebo   
    * px4-offboard example
