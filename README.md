@@ -65,6 +65,5 @@ ros2 launch px4_offboard offboard_hardware_position_control.launch.py
 ```
 To run all the nodes and tools together, run the app.launch 
 ```
-
 ros2 launch px4_offboard app.launch.py
 ```
